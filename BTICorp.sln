@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTI.Corp.Main.Web.UI", "BTI.Corp.Main.Web.UI\BTI.Corp.Main.Web.UI.csproj", "{0A2BE2EC-894A-44A6-8E3F-C5B624AD5D38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2BE2EC-894A-44A6-8E3F-C5B624AD5D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2BE2EC-894A-44A6-8E3F-C5B624AD5D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2BE2EC-894A-44A6-8E3F-C5B624AD5D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2BE2EC-894A-44A6-8E3F-C5B624AD5D38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B901AA8-0A0D-4551-9A8B-ED4A88886B25}
+	EndGlobalSection
+EndGlobal
