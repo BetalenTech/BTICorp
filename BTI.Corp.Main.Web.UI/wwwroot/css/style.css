@@ -9919,3 +9919,22 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.dropdown-menu {
+    background-color: #343a40 !important; /* Dark background for dropdown */
+    border-radius: 0; /* Remove border radius */
+}
+
+.dropdown-header {
+    color: #ffffff !important; /* White text for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+.dropdown-item {
+    color: #ffffff !important; /* White text for items */
+}
+
+    .dropdown-item:hover {
+        background-color: #495057 !important; /* Darker background on hover */
+        color: #ffffff !important; /* Keep text white on hover */
+    }
