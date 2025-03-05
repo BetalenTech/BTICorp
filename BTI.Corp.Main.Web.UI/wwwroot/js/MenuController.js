@@ -26,7 +26,7 @@
                                     </div>
                                     <div class="col-md topper d-flex align-items-center justify-content-end">
                                         <p class="mb-0 d-block">
-                                            <a href="#" class="btn py-2 px-3 btn-primary">
+                                            <a href="contact.html" class="btn py-2 px-3 btn-primary">
                                                 <span>Request for Demo</span>
                                             </a>
                                         </p>
@@ -60,19 +60,19 @@
                                         <div class="row" style="flex-wrap: unset !important;">
                                             <div class="col-md-6">
                                                 <h6 class="dropdown-header">Services</h6>
-                                                <a class="dropdown-item" href="/outsourcing-projects/">Outsourcing Projects</a>
-                                                <a class="dropdown-item" href="/software-development-company/">Software Management</a>
-                                                <a class="dropdown-item" href="/network-infrastructure-management-services/">Network & Infrastructure Management</a>
-                                                <a class="dropdown-item" href="/server-storages-solutions/">Server & Storages</a>
-                                                <a class="dropdown-item" href="/software-testing-company/">Testing & Audit Functions</a>
+                                                <a class="dropdown-item" href="outsourcing-projects.html">Outsourcing Projects</a>
+                                                <a class="dropdown-item" href="software-development.html">Software Management</a>
+                                                <a class="dropdown-item" href="network-infrastructure.html">Network & Infrastructure Management</a>
+                                                <a class="dropdown-item" href="server-storages-solutions.html">Server & Storages</a>
+                                                <a class="dropdown-item" href="software-testing.html">Testing & Audit Functions</a>
                                             </div>
                                             <div class="col-md-6">
                                                 <h6 class="dropdown-header">More Services</h6>
-                                                <a class="dropdown-item" href="/human-resource-management-services/">HRMS Assessments</a>
-                                                <a class="dropdown-item" href="/product-development-2/">Product Development</a>
-                                                <a class="dropdown-item" href="/digital-transformation/">Digital Enterprise Transformation</a>
-                                                <a class="dropdown-item" href="/managed-it-services/">Managed Services</a>
-                                                <a class="dropdown-item" href="/it-staffing-consulting-company/">IT Staffing</a>
+                                                <a class="dropdown-item" href="human-resource.html">HRMS Assessments</a>
+                                                <a class="dropdown-item" href="product-development.html">Product Development</a>
+                                                <a class="dropdown-item" href="digital-transformation.html">Digital Enterprise Transformation</a>
+                                                <a class="dropdown-item" href="managed-it-services.html">Managed Services</a>
+                                                <a class="dropdown-item" href="it-staffing.html">IT Staffing</a>
                                             </div>
                                         </div>
                                     </div>
@@ -82,12 +82,12 @@
                                 <li class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" id="loginDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
                                     <div class="dropdown-menu" aria-labelledby="loginDropdown">
-                                        <a class="dropdown-item" href="/employee-login.html">Employee Login</a>
-                                        <a class="dropdown-item" href="/healthsys-hub-login.html">Hospital Login</a>
-                                        <a class="dropdown-item" href="/clinic-login.html">Clinic Login</a>
-                                        <a class="dropdown-item" href="/pharmacy-login.html">Pharmacy Login</a>
-                                        <a class="dropdown-item" href="/lab-login.html">Lab Login</a>
-                                        <a class="dropdown-item" href="/payroll-login.html">Payroll Login</a>
+                                        <a class="dropdown-item" href="https://clarity.betalen.in/">Employee Login</a>
+                                        <a class="dropdown-item" href="https://hospital.betalen.in/">Hospital Login</a>
+                                        <a class="dropdown-item" href="https://clinic.betalen.in/">Clinic Login</a>
+                                        <a class="dropdown-item" href="https://pharmacy.betalen.in/">Pharmacy Login</a>
+                                        <a class="dropdown-item" href="https://lab.betalen.in/">Lab Login</a>
+                                        <a class="dropdown-item" href="https://clarity.betalen.in/">Payroll Login</a>
                                     </div>
                                 </li>
                                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
