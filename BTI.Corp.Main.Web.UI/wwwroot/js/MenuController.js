@@ -63,15 +63,13 @@
                                                 <a class="dropdown-item" href="outsourcing-projects.html">Outsourcing Projects</a>
                                                 <a class="dropdown-item" href="software-development.html">Software Management</a>
                                                 <a class="dropdown-item" href="network-infrastructure.html">Network & Infrastructure Management</a>
-                                                <a class="dropdown-item" href="server-storages-solutions.html">Server & Storages</a>
+                                                <a class="dropdown-item" href="server-storages.html">Server & Storages</a>
                                                 <a class="dropdown-item" href="software-testing.html">Testing & Audit Functions</a>
                                             </div>
                                             <div class="col-md-6">
                                                 <h6 class="dropdown-header">More Services</h6>
                                                 <a class="dropdown-item" href="human-resource.html">HRMS Assessments</a>
-                                                <a class="dropdown-item" href="product-development.html">Product Development</a>
                                                 <a class="dropdown-item" href="digital-transformation.html">Digital Enterprise Transformation</a>
-                                                <a class="dropdown-item" href="managed-it-services.html">Managed Services</a>
                                                 <a class="dropdown-item" href="it-staffing.html">IT Staffing</a>
                                             </div>
                                         </div>
