@@ -98,5 +98,108 @@
 
         // Append the header HTML to the header container
         $("#header-container").append(headerHtml);
+
+        var footerHtml = `
+<footer class="ftco-footer ftco-bg-dark ftco-section" style="background-color: #343a40; color: #ffffff;">
+    <div class="container">
+        <div class="row mb-5">
+            <!-- Contact Information -->
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Have Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Hi-tech City, Hyderabad, India</span></li>
+                            <li><a href="tel:+918332043983"><span class="icon icon-phone"></span><span class="text">+91-833-204-3983</span></a></li>
+                            <li><a href="mailto:info@betalen.in"><span class="icon icon-envelope"></span><span class="text">info@betalen.in</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Insights -->
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Recent Insights</h2>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(images/blog_1.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">The Future of Telemedicine: Trends to Watch</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> August 15, 2023</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 12</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(images/blog_2.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">How Data Analytics is Transforming Healthcare</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> July 30, 2023</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 8</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5 ml-md-4">
+                    <h2 class="ftco-heading-2">Quick Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                        <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About Us</a></li>
+                        <li><a href="services.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Our Services</a></li>
+                        <li><a href="products.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Products</a></li>
+                        <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Newsletter and Social Media -->
+            <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Subscribe to Our Newsletter</h2>
+                    <form action="#" class="subscribe-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control mb-2 text-center" placeholder="Enter your email address" required>
+                            <input type="submit" value="Subscribe" class="form-control submit px-3" style="background-color: #007bff; color: #ffffff;">
+                        </div>
+                    </form>
+                </div>
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                        <li class="ftco-animate"><a href="https://x.com/home/betalen"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="https://facebook.com/betalen"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/company/betalen/"><span class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="https://instagram.com/betalen"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Notice -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>
+                    Copyright @ 2025 ,All rights reserved </i> by <a href="https://betalen.in" target="_blank" style="color: #007bff;">betalen</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+   <!-- Footer Start -->
+  
+
+`;
+
+        // Append the footer HTML to the footer container
+        $("#footer-container").append(footerHtml);
     };
 }
