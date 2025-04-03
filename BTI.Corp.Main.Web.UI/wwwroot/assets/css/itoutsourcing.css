@@ -1,0 +1,280 @@
+
+.body{
+      font-family: Poppins, sans-serif !important;
+}
+.banner-content{
+  font-family: Poppins, sans-serif !important;
+  color: #fff !important;
+}
+.bb_send{
+    background: #144995;
+    color: #fff;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    width: 100%;
+    
+}
+
+.login-box2 {
+position: absolute;
+margin-top:60%;
+margin-bottom: 80%;
+left: 50%;
+width: 500px;
+padding: 40px;
+transform: translate(-50%, -50%);
+background: #ffffff;
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0,.6);
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+}
+text-white{
+    line-height: 1.4rem;
+}
+
+.login-box2 h2 {
+margin: 0 0 30px;
+padding: 0;
+color: #111;
+text-align: center;
+}
+
+.login-box2 .user-box {
+position: relative;
+}
+
+.login-box2 .user-box input {
+ width: 100%;
+padding: 10px 0;
+font-size: 13px;
+color: #111;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #111;
+outline: none;
+background: transparent;
+font-family: 'Poppins', sans-serif; 
+
+
+}
+
+.login-box2 .user-box label {
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 13px;
+color: #111;
+pointer-events: none;
+transition: .5s;
+}
+
+.login-box2 .user-box input:focus ~ label, .login-box .user-box input:valid ~ label {
+top: -20px; 
+left: 0px; 
+color: #111;
+font-size: 12px;
+
+}
+
+
+.login-box2 form a {
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+color: #111;
+font-size: 13px;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+transition: .5s;
+margin-top: 40px;
+letter-spacing: 4px;
+}
+
+.login-box2 form a:hover {
+background: #144995;
+color: #111;
+border-radius: 5px;
+box-shadow: 0 0 5px #144995,
+                     0 0 25px #144995,
+                     0 0 50px #144995,
+                     0 0 100px #144995;
+}
+
+.login-box2 a span {
+position: absolute;
+display: block;
+}
+
+.login-box2 a span:nth-child(1) {
+top: 0;
+left: -100%;
+width: 100%;
+height: 2px;
+background: linear-gradient(90deg, transparent, #144995);
+animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+0% {
+left: -100%;
+}
+50%,100% {
+left: 100%;
+}
+}
+
+.login-box2 span:nth-child(2) {
+top: -100%;
+right: 0;
+width: 2px;
+height: 100%;
+background: linear-gradient(180deg, transparent, #144995);
+animation: btn-anim2 1s linear infinite;
+animation-delay: .25s;
+}
+
+@keyframes btn-anim2 {
+0%{
+top: -100%;
+}
+50%,100% {
+top: 100%;
+}
+}
+
+.login-box2 span:nth-child(3){
+bottom: 0;
+right: -100%;
+width: 100%;
+height: 2px;
+background: linear-gradient(270deg, transparent, #144995);
+animation: btn-anim3 1s linear infinite;
+animation-delay: .5s;
+}
+
+@keyframes btn-anim3 {
+0%{
+right: -100%;
+}
+50%,100% {
+right: 100%;
+}
+}
+
+.login-box2 span:nth-child(4) {
+bottom: -100%;
+left: 0;
+width: 2px;
+height: 100%;
+background: linear-gradient(360deg, transparent, #30E9F4);
+animation: btn-anim4 1s linear infinite;
+animation-dealy: .75s;
+}
+
+@keyframes btn-anim4 {
+0% {
+bottom: -100%;
+}
+50%,100% {
+bottom: 100%;
+}
+}
+
+
+
+
+
+/* audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    margin: auto;
+    width: 97%;
+    margin-left: -10%;
+} */
+.h1_piechart{
+    text-align: center;
+    font-size: 41px;
+    margin-bottom: 83px;
+    font-weight: 800;
+    
+}
+.pp_cal{
+    color: #0060a7;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+  
+}
+.para_team
+{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.progress-pie-part .box .chart {
+    position: relative;
+    
+}
+.it_h2{
+    text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+.p_ourcompany{
+    width: 84%;
+    font-size: 15px;
+
+}
+.pt_serv {
+    background-color: #111;
+}
+@media only screen and (min-width:335px) and (max-width:991px)
+{
+
+  .login-box2 {
+    position: relative !important;
+    top:45%;
+    width: 423px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+}
+
+
+.rs-footer .footer-bottom {
+    padding: 14px 0;
+    background: #144995;
+    color: #fff;
+}
+
+.top_mail{
+    color: #144995;
+    text-decoration: none;
+    font-size: 10px;
+}
+.top_mail:hover{
+    color: #144995;
+    text-decoration: none;
+}
+.email_image{
+    width: 20px;
+    margin-top: -5px;
+}
+.ss_phn{
+    border: 1px solid #eee;
+    background-color: #f1f3f4;
+    border-radius: 5px;
+    height: 161px;
+    padding: 20px;
+     
+}
+
+
+
+
